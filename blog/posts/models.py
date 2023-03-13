@@ -34,5 +34,3 @@ class Image(models.Model):
 class Post_image(models.Model):
     post = models.ForeignKey(Post, on_delete=models.CASCADE)
     image = models.ForeignKey(Image, on_delete=models.CASCADE)
-
-
